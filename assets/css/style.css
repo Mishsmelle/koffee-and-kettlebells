@@ -1,26 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 *{
-    margin:0;
-    padding:0;
-    border:0;
+    margin:5;
+    padding:5;
+    border:5;
 }
+
+
 
 body{
     font-family: Lato;
-    color: #777777;
+    color: #FFFFFF;
+    background : #222B78;
 }
 
 h2{
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #555555;
+    color: #FFFFFF;
+    margin-left: 45%;
 }
 
 #logo{
-    float: left;
+    text-align: center;
     font-size: 280%;
+    margin-left:30%;
+    margin-right: 30%;
+    margin-top: -10%;
 }
 
 #menu{
@@ -45,17 +52,19 @@ h2{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .active{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 #hero-image{
-    height:600px;
+    height:500px;
     width: 100%;
-    background: url("/workspace/koffee-and-kettlebells/assets/images/colourful_kettlebells.jpg") no-repeat center center;
+    margin-top: 10%;
+    background: url("/assets/images/new_colourfull_kettlebells.jpg") no-repeat top center;
+    object-fit: cover;
 }
 
 footer{
@@ -75,5 +84,32 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: #FFFFFF;
+}
+
+.ourteam whoweare-bg {
+    background-image: url("/assets/images/three-women-laughing-gym.jpg")
+}
+#times{
+    background-image: url('/assets/images/women-stretching-class.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+}
+
+#times h2 {
+    color: #fafafa;
 }
