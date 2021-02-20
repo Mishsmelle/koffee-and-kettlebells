@@ -5,7 +5,13 @@
     padding:5;
     border:5;
 }
-
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 
 body{
@@ -67,29 +73,98 @@ h2{
     object-fit: cover;
 }
 
-footer{
-    height: 150px;
+#whoweare {
+    padding: 3.5rem 0;
 }
-
-.social-networks{
+.whoweare-header {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
     text-align: center;
-
+}
+.whoweare-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.whoweare-bg {
+    background-size: cover;
+    background-position: center center;
+    min-height: 450px;
+    margin:0;
+}
+.col-whoweare {
+    position: relative;
+    min-height: 200px;
+}
+.whoweare-text {
+    position: absolute;
+    background-color: #FFF;
+    padding: 2.5rem;
+    border: 0px solid rgba(194, 194, 194);
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    z-index: 1;
+    min-height: 200px;
+    max-height: 400px;
+}
+.whoweare-text h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.whoweare-text h3 strong {
+    color: #222B78;
+}
+.whoweare-text p {
+    font-weight: 300;
+    color: #8A8E91;
+}
+.ourteam-text-left .whoweare-text {
+    right: -10%;
+}
+.ourteam-text-left .whoweare-bg {
+    margin-left: -10%;
+}
+.ourcommunity-text-right .whoweare-text {
+    left: -10%;
+}
+.ourcommunity-text-right .whoweare-bg {
+    margin-right: -10%;
+}
+.ourmission-text-left .whoweare-text {
+    right: -10%;
+}
+.ourmission-text-left .whoweare-bg {
+    margin-left: -10%;
 }
 
-.social-networks li{
-    display: inline;
+/* WWA ONE */
+#ourteam {
+    margin-bottom: 72px;
+}
+#ourteam .whoweare-bg {
+     background: url("../assets/images/three-women-laughing-gym.jpg");
 }
 
-.social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #FFFFFF;
+/* WWA TWO */
+#ourcommunity {
+    margin-bottom: 72px;
+}
+#ourcommunity .whoweare-bg {
+    background: url("../assets/images/three-women-texting-gym.jpg");
 }
 
-.ourteam whoweare-bg {
-    background-image: url("/assets/images/three-women-laughing-gym.jpg")
+/* WWA THREE */
+#ourmission {
+    margin-bottom: 72px;
 }
+#ourmission .whoweare-bg {
+    background: url("../assets/images/women-high-5-pushup.jpg");
+}
+
 #times{
     background-image: url('/assets/images/women-stretching-class.jpg');
     background-repeat: no-repeat;
@@ -112,4 +187,34 @@ footer{
 
 #times h2 {
     color: #fafafa;
+}
+  
+
+footer{
+    height: 150px;
+}
+
+  .copyright {
+     margin-top: 1rem;
+     margin-left: 300rem;
+     font-size: 10px;
+     font-weight: 600;
+     text-align: center;
+     vertical-align: middle; }
+
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #FFFFFF;
 }
