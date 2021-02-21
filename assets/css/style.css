@@ -145,8 +145,9 @@ h2{
 #ourteam {
     margin-bottom: 72px;
 }
+
 #ourteam .whoweare-bg {
-     background: url("../assets/images/three-women-laughing-gym.jpg");
+    background: url('/assets/images/women-yoga-ball-class.jpg');
 }
 
 /* WWA TWO */
@@ -154,7 +155,7 @@ h2{
     margin-bottom: 72px;
 }
 #ourcommunity .whoweare-bg {
-    background: url("../assets/images/three-women-texting-gym.jpg");
+    background: url('/assets/images/women-yoga-ball-class.jpg');
 }
 
 /* WWA THREE */
@@ -162,7 +163,7 @@ h2{
     margin-bottom: 72px;
 }
 #ourmission .whoweare-bg {
-    background: url("../assets/images/women-high-5-pushup.jpg");
+    background: url('/assets/images/women-yoga-ball-class.jpg');
 }
 
 #times{
