@@ -1,11 +1,186 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Koffee and Kettlebells</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-  </body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+   <!--HEADER -->
+   <header>
+        <nav class="nav navbar navbar-expand-lg navbar-dark bg-purple">
+           <div class="container-fluid">
+                <a id="logo" class="navbar-brand" href="index.html">Koffee & Kettlebells</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Online Classes</a>
+                            <div class="dropdown-menu">
+    <a class="dropdown-item first-dd-item" href="lunchtimeblast.html">Lunchtime Blast</a>
+                                <a class="dropdown-item" href="beginners.html">Beginners</a>
+                                <a class="dropdown-item" href="kettlebellswithowen.html">Kettlebells with Owen</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="membership.html">Membership</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="koffeehouse.html">Koffeehouse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<section>
+  <div id="membership-heading">
+    <h3>Membership Plans</h3>
+  </div>
+  <div class="row-membership">
+         <div class="column-membership">
+    <h3>Basic Plan</h3>
+    <p>
+      The basic plan gives you free unlimited access to the gym. You will also recieve a free monthly newsletter including recipes and home workouts. 
+    </p>
+    <h3>€29 per month</h3>
+  </div>
+
+  <div class="column-membership">
+     <h3>
+      Premium Plan
+    </h3>
+     <p>
+      The premium plan includes all the benefits of the basic plan PLUS free access to all our classes and a branded Koffee and Kettlebells gym bag. 
+    </p>
+    <h3>€38 per month</h3>
+  </div>
+
+  <div class="column-membership">
+        <h3>Platinum Plan</h3>
+            <p>
+      The Platinum plan includes all the benefits of the Premium plan PLUS a weekly session with a personal trainer AND a free coffee each week. </p>
+             <h3>€50 per month</h3>
+    </div>
+</div>
+</section>
+
+   <section class="form-section">
+       <form action="https://formdump.codeinstitute.net/" method="post"><h2>Choose your plan</h2>
+       <br>
+       <label for="basic" class="plan_preference">Basic </label>
+       <input type="radio" name="plan_preference" id="basic" value="basic" required>
+       
+       <label for="premium">Premium</label>
+       <input type="radio" id="premium" name="plan_preference" value="premium" required>
+       
+       <label for="Platinum" class="plan_preference">Platinum</label>
+       <input type="radio" name="plan_preference" id="platinum" value="platinum">
+       
+      <br>
+             <label for="fname">First Name</label>
+       <input id="fname" type="text" name="first_name" required>
+       
+       <label for="lname">Last Name</label>
+       <input id="lname" type="text" name="last_name" required>
+       
+       <label for="email">Email Address</label>
+       <input id="email" name="email_address" type="email" required>
+      
+        <input class="join-button" type="submit" value="Sign Up">
+
+    
+    </form>
+</section>
+   <!-- Footer Section -->
+    <footer class="mt-auto py-3" id="footer">
+        <div class="container">
+            <div class="row">
+                <!--Slogan Column-->
+                <div class="col-lg-4 order-1 order-lg-1 my-4" id="slogan-column">
+                     <h4>GET IN TOUCH</h4><br>
+                    <p class="contact-details"><i class="fas fa-envelope"></i><a href="mailto:info@koffeeandkettlebells.ie">info@koffeeandkettlebells.ie</a></p>
+                    <p class="contact-details"><i class="fas fa-map-marker-alt"></i> Koffee & Kettlebells,
+                    7 Mainguard Street,
+                    Galway. </p>
+                  
+                </div>
+
+                <!--Contact Column-->
+                <div class="col-lg-4 order-2 order-lg-2 my-4" id="contact-column">
+                    <p>
+                        Koffee and Kettlebells is a unique Galway experience. Not just a gym, but a place to live and call home. 
+                
+                    </p>
+                </div>
+
+                <!--CTA Column-->
+                <div class="col-lg-4 order-3 order-lg-3 my-4" id="cta-column">
+                    <form id="cta-form" method="POST" action="https://formdump.codeinstitute.net/">
+                        <label class="cta-label">Sign up to our newsletter</label><br>
+                        <input type="email" name="email" id="cta-input" aria-describedby="cta-input" placeholder="Email" required />
+                        <button type="submit" class="cta-btn shadow-none">Submit</button>
+                    </form>
+
+
+                    <!--Social Media Icon Links-->
+                    <ul class="list-inline social-icons">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com" target="_blank">
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.pinterest.com/" target="_blank">
+                                <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                <span class="sr-only">Pinterest</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Copyrights-->
+            </div>
+            <div class="col-12">
+                <p class="copyrights-paragraph">Copyright Koffee & Kettlebells 2021.</p>
+            </div>
+        </div>
+    </footer>
+    <!--/.Footer Section-->
+
+
+<!--Bootstrap: Responsive Navigation Bar-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+<script>$('body').scrollspy({ target: '#navbar' })</script>
+
+</body>
 </html>
