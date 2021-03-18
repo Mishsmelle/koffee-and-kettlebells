@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 *   {
-    margin:5;
-    padding:5;
-    border:5;
+    margin: 5;
+    padding: 5;
+    border: 5;
+    box-sizing: border-box;
     }
 
 body {
@@ -69,9 +70,8 @@ h2  {
     border: none;
 }
 
-.dropdown-menu:hover {
-    background-color: #f9f9f9;
-    color: #4FC9D9;
+.dropdown-menu a :hover {
+   border-bottom: 1px solid #ffffff;	
 }
 
 .nav {
@@ -100,11 +100,11 @@ h2  {
     height:600px;	
     width: 100%;	
     background: url(/assets/images/new_colourfull_kettlebells.jpg) no-repeat center center;
-    background-size: cover;	
+    background-size: contain;	
     animation-name: hero-zoom;	
     animation-duration: 5s;	
     animation-fill-mode: forwards;
-    margin-top: 17%;	
+    margin-top: 5%;	
 }
 
 #hero-outer{	
@@ -113,6 +113,10 @@ h2  {
     overflow: hidden;	
     position: relative;	
 }	
+.responsive{
+    width: 100%;
+  height: auto;
+}
 
 @keyframes hero-zoom {	
     from{	
@@ -204,25 +208,121 @@ position: relative;}
 
 /* SECTION THREE CLASS TIMES */
 
-#classtimes{
-    margin-top: 26px;
-    margin-bottom: 50px;
-    padding-left: 60px;
-}
-#classtimes-header{
-    margin-left:-1%;
-    padding-left: 60px;
+#thisweek{
+  margin-top: 50px !important;
+  margin-left: 50px;
 }
 
-#classtimes > p 
-    {color: #FFFFFF;
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.gallery-headers{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gallery{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+/* form */
+
+.form-section {
+    clear: both;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-left: 5%;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+/*Koffeehouse Page*/
+
+#koffeehouse-page{
+    margin-left: 5%;
+}
+
+#koffeehouse-heading{
     text-align: center;
-    font-family: Lato;
-    letter-spacing: 4px;
-    font-size: 25px;
-    text-shadow: 2px 2px #000000;}
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10%;
+}
 
+.menu-responsive{
+  height: auto;
+  width: 50%;
+}
 
+#koffeehouse-download{
+    text-align: center;
+    margin-bottom: 10%;
+}
+/*MEMBERSHIP PAGE */
+    .column-membership {
+    float: left;
+    width: 28%;
+    background-color: #FFF;
+    padding: 2.5rem;
+    border: 0px solid rgba(194, 194, 194);
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
+    min-height: 200px;
+    max-height: 400px;
+    color:#28306C;
+    margin: 2%}
+
+/* Clear floats after the columns */
+.row-membership:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media screen and (max-width: 600px) {
+  .column-membership {
+    width: 100%;
+  }
+/* form */
+
+.form-section {
+    clear: both;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-left: 5%;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+/*end form*/
 
  #footer {
      background-color: #28306C;
@@ -368,4 +468,7 @@ position: relative;}
     .first-dd-item {
         margin-top: 0;
     }
+}
+
+
 }
