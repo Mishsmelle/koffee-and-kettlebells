@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 *   {
-    margin: 5;
-    padding: 5;
-    border: 5;
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
     box-sizing: border-box;
     }
 
@@ -97,8 +97,7 @@ h2  {
 }
 
 #hero-image{	
-    height:600px;	
-    width: 100%;	
+    height:600px;		
     background: url(/assets/images/new_colourfull_kettlebells.jpg) no-repeat center center;
     background-size: contain;	
     animation-name: hero-zoom;	
@@ -110,13 +109,8 @@ h2  {
 #hero-outer{	
     height:600px;	
     width: 100%;	
-    overflow: hidden;	
     position: relative;	
 }	
-.responsive{
-    width: 100%;
-  height: auto;
-}
 
 @keyframes hero-zoom {	
     from{	
@@ -185,7 +179,7 @@ h2  {
 /* S2 - Our community*/
 
 .ourcommunity-text-right .whoweare-text
-   {left: -30%;}
+   {left: 0%;}
 .ourcommunity-text-right .whoweare-bg
    {margin-left: -10%;}
  
@@ -194,6 +188,21 @@ h2  {
 #ourcommunity .whoweare-bg
    {background: url('/assets/images/our-community.png')no-repeat; 
 position: relative;}
+
+@media screen and (max-width: 400px) {
+  .whoweare-bg {  
+    width: 90%;
+  }
+  .col-whoweare{
+    width: 90%;
+  }
+  .whoweare-text h3{
+    width: 90%;
+  }
+  .whoweare-text{
+    width: 90%;
+  }
+}
 
     /* S2 - Our mission*/
 .ourmission-text-left .whoweare-text
@@ -209,7 +218,7 @@ position: relative;}
 /* SECTION THREE CLASS TIMES */
 
 #thisweek{
-  margin-top: 50px !important;
+  margin-top: 120px !important;
   margin-left: 50px;
 }
 
@@ -225,8 +234,16 @@ position: relative;}
   display: table;
 }
 
-.container {
+.thisweek-container {
   position: relative;
+  width: 90%;
+}
+
+.thisweek-text {
+  background-color: #ffffff;
+  color: #28306C;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 .image {
@@ -249,20 +266,16 @@ position: relative;}
   text-align: center;
 }
 
-.container:hover .image {
+.thisweek-container:hover .image {
   opacity: 0.3;
 }
 
-.container:hover .middle {
+.thisweek-container:hover .middle {
   opacity: 1;
 }
 
-.text {
-  background-color: #FFFFFF;
-  color:#28306C;
-  font-size: 16px;
-  padding: 16px 32px;
-}
+
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -292,6 +305,8 @@ position: relative;}
     margin-left: 5%;
     line-height: 30px;
     word-spacing: 5px;
+    list-style: none;
+    margin-bottom: 5%;
 }
 
 /*Koffeehouse Page*/
@@ -422,7 +437,7 @@ position: relative;}
      color: #FFF;
      text-transform: uppercase;
      font-weight: 800;
-     border: 1px solid #4FC9D9;
+     border: 1px solid rgb(70, 182, 197);
      letter-spacing: 1px;
      outline: none;
      margin-top: 10px;
@@ -431,7 +446,7 @@ position: relative;}
  .cta-btn:active,
  .cta-btn:focus {
      background-color: #368F9B;
-     border: 1px solid #368F9B;
+     border: 1px solid rgb(56, 151, 163);
      color: #FFF;
      transition: all 0.20s ease-in-out;
 }
