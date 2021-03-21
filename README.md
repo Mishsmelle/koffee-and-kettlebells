@@ -4,9 +4,9 @@
 
 # Koffee & Kettlebells 
 
-![website preview](insert am I responsive image) 
+![website preview](assets/images/responsive_image.png) 
 
-[VIew the live website here]()
+[View the live website here](https://mishsmelle.github.io/koffee-and-kettlebells/index.html)
 
 The website was created for educational purposes only. The assignment was to build a gym website in HTML/CSS format that is user friendly, visually appealing and meets the gym owners goals of attracting and retaining members. This website features a gallery showcasing the best of the gym’s classes and facilities, a downloadable pdf menu for the on-site coffeehouse,  clear and concise information on classes, contact information and newsletter sign up option. 
 
@@ -19,9 +19,9 @@ The gym is interested in attracting and retaining members.
 
 In the pre-production phase of this project I researched a number of similar upscale gyms for inspiration. I referenced an online survey published by [Glofox](https://www.glofox.com/blog/10-gym-membership-statistics-you-need-to-know/#:~:text=In%202019%2C%20more%20than%2062.5,at%20least%20twice%20a%20week). to build a prospective client identity and  focus for the site. From this survey I learned that some of the top reasons for quitting a gym are: 
 
-*losing motivation
-*feeling out of place
-*not seeing results quick enough.
+* losing motivation
+* feeling out of place
+* not seeing results quick enough.
 
 So when addressing my clients goal of retaining members, I chose to focus on the social aspects of the gym, highlighting the regular meetups, including images from the coffeehouse and showcasing the gym’s commitment to creating a gym that is more of a community.  
 
@@ -54,10 +54,12 @@ According to [Noobgains.com](https://noobgains.com/gym-membership-statistics/) T
 
 The colour palette was chosen to be fun, energetic and motivating. I primarily used a dark background with white text to appeal to our younger, new customers. White text on a darker background is considered more [“elite”, “creative” and “modern”](https://undsgn.com/website-dark-backgrounds/).  Except for section 2, “Who we are” as blocks of paragraph text are easier to read black on white. The main background colour chosen is #2E377F
 
+![hex colour](assets/images/hexcolour.png)
 
 
 For hyperlinks, headings and any other use of highlighting text, I used a colour palette from the hero image: 
 
+![colour palette](assets/images/palette.png)
 
 ### Typography ###
 
