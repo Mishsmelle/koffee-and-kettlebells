@@ -96,7 +96,7 @@ h2  {
 #hero-image{	
     height:600px;	
   width: 100%;	
-    background: url(/assets/images/new_colourfull_kettlebells.jpg) no-repeat center center;
+    background: url("assets/images/new_colourfull_kettlebells.jpg") no-repeat center center;
     background-size: contain;	
     animation-name: hero-zoom;	
     animation-duration: 5s;	
@@ -110,7 +110,7 @@ h2  {
     position: relative;	
 }	
 .responsive{
-    width: 100%;
+    display: 100%;
   height: auto;
 }
 
@@ -176,7 +176,7 @@ h2  {
 #ourteam
    {margin-bottom: 72px;}
 #ourteam .whoweare-bg
-   {background: url('/assets/images/our-team.png')no-repeat;}
+   {background: url("assets/images/our-team.png")no-repeat;}
      
 /* S2 - Our community*/
 
@@ -188,7 +188,7 @@ h2  {
 #ourcommunity
    {margin-bottom: 72px;}
 #ourcommunity .whoweare-bg
-   {background: url('/assets/images/our-community.png')no-repeat; 
+   {background: url("assets/images/our-community.png")no-repeat; 
 position: relative;}
 
 @media screen and (max-width: 400px) {
@@ -215,7 +215,7 @@ position: relative;}
 #ourmission
    {margin-bottom: 72px;}
 #ourmission .whoweare-bg
-   {background: url('/assets/images/our-mission.png')no-repeat;}
+   {background: url("assets/images/our-mission.png")no-repeat;}
 
 /* SECTION THREE CLASS TIMES */
 
@@ -308,6 +308,7 @@ position: relative;}
     line-height: 30px;
     word-spacing: 5px;
     list-style: none;
+    margin-bottom: 10%;
 }
 
 /*Koffeehouse Page*/
