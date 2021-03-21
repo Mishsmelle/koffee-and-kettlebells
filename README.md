@@ -72,11 +72,11 @@ The stock images were all chosen to compliment each other and to add consistency
 
 ### Wireframes ###
 
-Home Page Wireframe - View
+Home Page Wireframe - [View](assets/images/desktop-wireframe.png)
 
-Mobile Wireframe - View
+Mobile Wireframe - [View](assets/images/mobile_wireframe.png)
 
-Online Classes Page Wireframe - View
+Online Classes Page Wireframe - [View](assets/images/onlineclasses-wireframe.png)
 
 
 **Features**
