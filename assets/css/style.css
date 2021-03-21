@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 *   {
-    margin: 5px;
-    padding: 5px;
-    border: 5px;
     box-sizing: border-box;
     }
 
@@ -97,7 +94,8 @@ h2  {
 }
 
 #hero-image{	
-    height:600px;		
+    height:600px;	
+  width: 100%;	
     background: url(/assets/images/new_colourfull_kettlebells.jpg) no-repeat center center;
     background-size: contain;	
     animation-name: hero-zoom;	
@@ -111,6 +109,10 @@ h2  {
     width: 100%;	
     position: relative;	
 }	
+.responsive{
+    width: 100%;
+  height: auto;
+}
 
 @keyframes hero-zoom {	
     from{	
@@ -306,7 +308,6 @@ position: relative;}
     line-height: 30px;
     word-spacing: 5px;
     list-style: none;
-    margin-bottom: 5%;
 }
 
 /*Koffeehouse Page*/
