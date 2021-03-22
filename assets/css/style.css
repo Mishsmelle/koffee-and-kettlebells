@@ -96,7 +96,7 @@ h2  {
 #hero-image{	
     height:600px;	
   width: 100%;	
-    background: url("assets/images/new_colourfull_kettlebells.jpg") no-repeat center center;
+    background: url('/assets/images/new_colourfull_kettlebells.jpg')no-repeat center center;
     background-size: contain;	
     animation-name: hero-zoom;	
     animation-duration: 5s;	
@@ -158,6 +158,7 @@ h2  {
    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
    width: 80%;
    z-index: 1;
+   overflow-x: scroll;
    min-height: 200px;
    max-height: 400px;
     color:#28306C}
@@ -176,7 +177,8 @@ h2  {
 #ourteam
    {margin-bottom: 72px;}
 #ourteam .whoweare-bg
-   {background: url("assets/images/our-team.png")no-repeat;}
+   {background: url('/assets/images/our-team.png')
+}
      
 /* S2 - Our community*/
 
@@ -188,7 +190,7 @@ h2  {
 #ourcommunity
    {margin-bottom: 72px;}
 #ourcommunity .whoweare-bg
-   {background: url("assets/images/our-community.png")no-repeat; 
+   {background: url('/assets/images/our-community.png')no-repeat; 
 position: relative;}
 
 @media screen and (max-width: 400px) {
@@ -215,7 +217,7 @@ position: relative;}
 #ourmission
    {margin-bottom: 72px;}
 #ourmission .whoweare-bg
-   {background: url("assets/images/our-mission.png")no-repeat;}
+   {background: url('/assets/images/our-mission.png')no-repeat;}
 
 /* SECTION THREE CLASS TIMES */
 
